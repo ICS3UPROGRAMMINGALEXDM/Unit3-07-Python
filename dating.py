@@ -16,7 +16,7 @@ def main():
 
         # Checks to make sure input is valid
         if (g_looks == "y" or g_looks == "n") and (rich == "y" or rich == "n"):
-            # Decides what to display with given input
+            # Decides what to display with given inputs
             if g_looks == "y" or rich == "y":
                 print(
                     Fore.GREEN
